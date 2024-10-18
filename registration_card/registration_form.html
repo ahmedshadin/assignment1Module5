@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        
+        <h2>Registration Form</h2>
+
+        <!-- Registration Form Start -->
+        <form action="#">
+
+            <!-- name and username section start -->
+            <div class="row">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" placeholder="Enter your full name" id="fullName" name="fullName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter your username" id="username" name="username" required>
+                </div>
+            </div>
+            <!-- name and username section end -->
+
+            <!-- email and phone number section start  -->
+            <div class="row">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" placeholder="Enter your phone number" id="phone" name="phone" required>
+                </div>
+            </div>
+            <!-- email and phone number section end  -->
+
+            <!-- password and confirm password section start -->
+            <div class="row">
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+            </div>
+            <!-- password and confirm password section end -->
+
+            <!-- gender section start -->
+            <div class="form-group gender-group">
+                
+                <div class="gender-options">
+                    <label>Gender</label>
+
+                    <input type="radio" class="custom-radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    
+                    <input type="radio"  id="female" class="radio-margin custom-radio" name="gender" value="female" required>
+                    <label for="female">Female</label>
+ 
+                    <input type="radio"  id="other" name="gender" class="radio-margin custom-radio"  value="other" required>
+                    <label for="other">Other</label>
+                    
+                </div>
+            </div>
+            <!-- gender section end -->
+
+            <!-- submit section start -->
+            <div class="form-group">
+                <button type="submit" class="btn-danger">Cancel</button>
+                <button type="submit" class="btn-success" >Submit</button>
+            </div>
+            <!-- submit section end -->
+        </form>
+        <!-- Registration Form Start -->
+
+    </div>
+</body>
+</html>
