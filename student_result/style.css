@@ -1,20 +1,19 @@
-
 body {
-    margin: 0;
-    background-color: darkgray;
+    background-color: #E9EED9;
 }
-.result-section {
+.resutl-section {
+    background-color: #8ABFA3;
     width: 500px;
+    padding: 30px;
     height: 400px;
-    background-color: aqua;
+    border-radius: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
-    border-radius: 10px;
 }
-.result {
-    font-size: 18px;
-    font-weight: bold;
+.heading {
+    font-size: 17px;
+    font-weight: 600;
+    color: blue;
 }
